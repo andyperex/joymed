@@ -1,0 +1,189 @@
+*{
+  /* background: #c3195d; */
+  margin: 0;
+  padding: 0;
+
+}
+
+body{
+  /* display: flex;
+  flex-direction: column; */
+  align-items: center;
+  justify-content: center;
+  /* background-image:url("/Users/cesarperez/Desktop/Programming/JoyMed/images/jungleflu.JPEG"); */
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+}
+
+
+
+h1, h2{
+  color: #ffe9e3;
+  font-weight: bold;
+}
+
+.joymed{
+
+  width: 100vw;
+  height: 120px;
+  background-image: url("/Users/cesarperez/Desktop/Programming/JoyMed/images/header.png");
+  background-size:  cover;
+  position: fixed;
+ top: 0;
+ left: 0;
+ margin: 0;
+ padding: 0;
+margin-bottom: 50px;
+box-shadow: 5px 5px 10px black;
+}
+
+.hugeD{
+  display: flex;
+  justify-content: space-evenly;
+  border-color: red;
+  border-width: 4px;
+  height: 700px;
+  width: 100vw;
+
+  margin-top: 150px;
+}
+
+.bigdivl{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 600px;
+  height: 500px;
+  border-color: green;
+  /* background-color: blue; */
+}
+
+
+
+.mono{
+  height: 140px;
+  width: 140px;
+  background-image: url("/Users/cesarperez/Desktop/Programming/JoyMed/images/Chimpdoc.png");
+  background-size: cover;
+  border-radius: 50%;
+  margin-top: 40px;;
+  margin-bottom: 25px;
+  box-shadow: 5px 5px 10px black;
+}
+
+
+
+#displayD{
+  border-style: outset;
+  border-width: thick;
+  height: 80px;
+  width: 400px;
+  color: black;
+  background-color: white;
+  font-size: 30px;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  /* border-radius: 100%  ; */
+  margin-bottom: 15px;
+  margin-top: 25px;
+}
+
+#displayD2{
+  border-color: black;
+  border-style: outset;
+  border-width: thick;
+  height: 80px;
+  width: 400px;
+  color: black;
+  background-color: white;
+  font-size: 30px;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+
+/* #generator{
+  margin-top: 8px;
+  font-size: 30px;
+  font-weight: bold;
+  color: black;
+  margin-bottom: 20px;
+
+} */
+/*
+
+<!-- HTML !-->
+<button class="button-29" role="button">Button 29</button> */
+
+/* CSS */
+#generator {
+  align-items: center;
+  appearance: none;
+  background: rgb(190,85,186);
+background: linear-gradient(90deg, rgba(190,85,186,1) 26%, rgba(189,155,205,1) 50%, rgba(234,193,236,1) 76%);
+  border-radius: 6px;
+  box-shadow: rgba(45, 35, 66, .4) 0 2px 4px,rgba(45, 35, 66, .3) 0 7px 13px -3px,rgba(58, 65, 111, .5) 0 -3px 0 inset;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: "JetBrains Mono",monospace;
+  height: 48px;
+  justify-content: center;
+  line-height: 1;
+  list-style: none;
+  overflow: hidden;
+  padding-left: 16px;
+  padding-right: 16px;
+  position: relative;
+  text-align: left;
+  text-decoration: none;
+  transition: box-shadow .15s,transform .15s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  will-change: box-shadow,transform;
+  font-size: 30px;
+  margin-bottom: 50px;
+  margin-top: 40px;
+}
+
+#generator:focus {
+  box-shadow: #3c4fe0 0 0 0 1.5px inset, rgba(45, 35, 66, .4) 0 2px 4px, rgba(45, 35, 66, .3) 0 7px 13px -3px, #3c4fe0 0 -3px 0 inset;
+}
+
+#generator:hover {
+  box-shadow: rgba(45, 35, 66, .4) 0 4px 8px, rgba(45, 35, 66, .3) 0 7px 13px -3px, #3c4fe0 0 -3px 0 inset;
+  transform: translateY(-2px);
+}
+
+#generator :active {
+  box-shadow: #3c4fe0 0 3px 7px inset;
+  transform:translateY(2px);
+}
+
+.bigdivr{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 600px;
+  height: 500px;
+  background-color: yellow;
+  margin-top: 90px;
+}
+
+.imgD{
+
+  height: 380px;
+  width: 400px;
+  /* background-color: black; */
+
+}
+
+.image-class{
+  max-width: 100%;
+  max-height: 100%;
+}
